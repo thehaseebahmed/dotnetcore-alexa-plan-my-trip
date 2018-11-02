@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlanMyTrip.Library", "PlanMyTrip.Library\PlanMyTrip.Library.csproj", "{EBC5FA7A-A4B2-4D46-BBB9-EE2453CD6511}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlanMyTrip.AlexaApi", "PlanMyTrip.AlexaApi\PlanMyTrip.AlexaApi.csproj", "{143FF2EB-051B-463A-9711-B2A9CB8D1E6C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EBC5FA7A-A4B2-4D46-BBB9-EE2453CD6511}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBC5FA7A-A4B2-4D46-BBB9-EE2453CD6511}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBC5FA7A-A4B2-4D46-BBB9-EE2453CD6511}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBC5FA7A-A4B2-4D46-BBB9-EE2453CD6511}.Release|Any CPU.Build.0 = Release|Any CPU
+		{143FF2EB-051B-463A-9711-B2A9CB8D1E6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{143FF2EB-051B-463A-9711-B2A9CB8D1E6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{143FF2EB-051B-463A-9711-B2A9CB8D1E6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{143FF2EB-051B-463A-9711-B2A9CB8D1E6C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6FF052CE-097D-4518-84E7-581AD90B9076}
+	EndGlobalSection
+EndGlobal
