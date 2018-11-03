@@ -5,6 +5,22 @@
 
 This example was actually published by Amazon ([here](https://github.com/alexa/alexa-cookbook/tree/master/feature-demos/skill-demo-dialog-delegate)) but has been ported to .NET Core by me.
 
+## Development setup
+
+### Setup ASK CLI
+1. Install LTS version of NodeJS from their [website](https://nodejs.org/).
+2. Setup Alexa Skill Kit CLI by following steps [here](https://developer.amazon.com/docs/smapi/quick-start-alexa-skills-kit-command-line-interface.html#step-3-install-and-initialize-ask-cli).
+
+### Setup .NET Core
+1. Download and install .NET Core SDK from their [website](https://www.microsoft.com/net/download).
+2. If latest version is any other than 2.1.x than follow these steps otherwise move onto "Building solution".
+3. Navigate [here](https://www.microsoft.com/net/download/dotnet-core/2.1) and download binaries for .NET Core SDK v2.1.5.
+4. Extract binaries into "C:\Program Files\dotnet\sdk" or wherever you installed your .NET Core SDK.
+
+### Building solution
+1. Open the PlanMyTrip.sln file in Visual Studio 2017.
+2. Build and enjoy!
+
 ## Release History
 
 * 1.0.0
