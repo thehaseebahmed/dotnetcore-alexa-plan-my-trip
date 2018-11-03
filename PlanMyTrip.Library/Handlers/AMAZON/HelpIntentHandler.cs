@@ -1,4 +1,5 @@
-﻿using PlanMyTrip.Library.Models.InternalModels;
+﻿using PlanMyTrip.Library.Constants;
+using PlanMyTrip.Library.Models.InternalModels;
 
 namespace PlanMyTrip.Library.Handlers.AMAZON
 {
@@ -8,10 +9,8 @@ namespace PlanMyTrip.Library.Handlers.AMAZON
             InteractionInternalModel interaction
             )
         {
-            interaction.Response.Text = "Hi there, the replenium skill can help you add items to your replenishments, cancel existing replenishments or check your upcoming orders. What would you like to do?";
-
-            interaction.Response.Prompt = "If you want to add items to your replenishments, just say add replenishments.";
-
+            interaction.Response.Text = Speech.HelpReply;
+            interaction.Response.Prompt = Speech.HelpPrompt;
             interaction.Session.EndSession = false;
 
             return interaction;

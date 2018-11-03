@@ -1,4 +1,5 @@
-﻿using PlanMyTrip.Library.Models.InternalModels;
+﻿using PlanMyTrip.Library.Constants;
+using PlanMyTrip.Library.Models.InternalModels;
 
 namespace PlanMyTrip.Library.Handlers
 {
@@ -8,7 +9,8 @@ namespace PlanMyTrip.Library.Handlers
             InteractionInternalModel interaction
             )
         {
-            interaction.Response.Text = "Hi there!";
+            interaction.Response.Text = Speech.WelcomeReply;
+            interaction.Response.Prompt = Speech.WelcomePrompt;
             interaction.Session.EndSession = false;
 
             return interaction;

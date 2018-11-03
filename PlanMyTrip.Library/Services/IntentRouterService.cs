@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using Microsoft.Extensions.DependencyInjection;
 using PlanMyTrip.Library.Constants;
 using PlanMyTrip.Library.Handlers;
+using PlanMyTrip.Library.Handlers.AMAZON;
 using PlanMyTrip.Library.Models.InternalModels;
 
 namespace PlanMyTrip.Library.Services
@@ -40,7 +41,7 @@ namespace PlanMyTrip.Library.Services
             {
                 if (string.IsNullOrWhiteSpace(interaction.Response.Text))
                 {
-                    interaction.Response.Text = "Sorry, I don't understand that. Please try again.";
+                    interaction.Response.Text = Speech.UnknownIntentReply;
                     interaction.Session.EndSession = true;
                 }
             }
@@ -67,7 +68,9 @@ namespace PlanMyTrip.Library.Services
 
             Dictionary<string, Type> intentHandlerMapping = new Dictionary<string, Type>
             {
-                {Intents.DefaultWelcome, typeof(DefaultWelcomeIntentHandler)}
+                {Intents.AmazonHelpIntent, typeof(HelpIntentHandler)},
+                {Intents.DefaultWelcome, typeof(DefaultWelcomeIntentHandler)},
+                {Intents.PlanMyTrip, typeof(PlanMyTripIntentHandler)}
             };
 
             // LETS RESOLVE THAT TYPE TO GET THE APPROPRIATE HANDLER.
