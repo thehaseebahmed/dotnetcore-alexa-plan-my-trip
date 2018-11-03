@@ -1,0 +1,33 @@
+{
+  "manifest": {
+    "publishingInformation": {
+      "locales": {
+        "en-US": {
+          "summary": "The \"Plan my trip\" example asks the user questions about an upcoming trip they'd like to take.",
+          "examplePhrases": [
+            "Alexa, open trip planner"
+          ],
+          "name": "Plan my trip - demo",
+          "description": "The \"Plan my trip\" example asks the user questions about an upcoming trip they'd like to take. As a part of this Alexa will gather information about when the trip will start as well as where they'd like to leave from and go to."
+        },
+        "isAvailableWorldwide": true,
+        "testingInstructions": "",
+        "category": "EDUCATION_AND_REFERENCE",
+        "distributionCountries": []
+      },
+      "apis": {
+        "custom": {
+          "regions": {
+            "default": {
+              "endpoint": {
+                "uri": "[YOUR_ENDPOINT_HERE]",
+                "sslCertificateType": "Wildcard"
+              }
+            }
+          }
+        }
+      },
+      "manifestVersion": "1.0"
+    }
+  }
+}
