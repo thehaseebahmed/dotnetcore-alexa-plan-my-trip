@@ -21,7 +21,7 @@
         "regions": {
           "default": {
             "endpoint": {
-                "uri": "[YOUR_ENDPOINT_HERE]",
+              "uri": "https://planmytrip.azurewebsites.net/v1/api",
               "sslCertificateType": "Wildcard"
             }
           }

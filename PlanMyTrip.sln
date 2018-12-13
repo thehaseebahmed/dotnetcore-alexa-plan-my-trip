@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27703.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlanMyTrip.Library", "PlanMyTrip.Library\PlanMyTrip.Library.csproj", "{EBC5FA7A-A4B2-4D46-BBB9-EE2453CD6511}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PlanMyTrip.Library", "PlanMyTrip.Library\PlanMyTrip.Library.csproj", "{EBC5FA7A-A4B2-4D46-BBB9-EE2453CD6511}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlanMyTrip.AlexaApi", "PlanMyTrip.AlexaApi\PlanMyTrip.AlexaApi.csproj", "{143FF2EB-051B-463A-9711-B2A9CB8D1E6C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PlanMyTrip.AlexaApi", "PlanMyTrip.AlexaApi\PlanMyTrip.AlexaApi.csproj", "{143FF2EB-051B-463A-9711-B2A9CB8D1E6C}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{41785A74-159C-42BA-9805-470417593A0C}"
 	ProjectSection(SolutionItems) = preProject
@@ -14,6 +14,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 	EndProjectSection
 EndProject
 Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "PlanMyTrip.AlexaSkill", "PlanMyTrip.AlexaSkill\PlanMyTrip.AlexaSkill.njsproj", "{D993E8F8-2BC5-4F4A-A737-80A302AEBBE0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PlanMyTrip.AlexaLambda", "PlanMyTrip.AlexaLambda\PlanMyTrip.AlexaLambda.csproj", "{E34FDC91-7594-46F0-A369-FCE1637C560B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{D993E8F8-2BC5-4F4A-A737-80A302AEBBE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D993E8F8-2BC5-4F4A-A737-80A302AEBBE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D993E8F8-2BC5-4F4A-A737-80A302AEBBE0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E34FDC91-7594-46F0-A369-FCE1637C560B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E34FDC91-7594-46F0-A369-FCE1637C560B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E34FDC91-7594-46F0-A369-FCE1637C560B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E34FDC91-7594-46F0-A369-FCE1637C560B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
